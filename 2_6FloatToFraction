@@ -1,0 +1,8 @@
+X = 0.A1A2..An(B1B2..Bm)
+10^n * X = A1A2..An.(B1B2..Bm)
+X = (A1A2..An + 0.(B1B2..Bm))/ 10^n
+let Y = 0.(B1B2..Bm)
+10^m * Y = B1B2..Bm + 0.(B1B2..Bm)
+Y = B1B2..Bm / (10^m - 1)
+
+X = (A1A2..An + B1B2..Bm / (10^m - 1))/ 10^n
